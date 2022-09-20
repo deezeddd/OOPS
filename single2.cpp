@@ -9,13 +9,20 @@ class scooter {
     
 };
 
-class actva : public scooter{ // ye syntax h derivative class( child class ) bnane ka
+class actva : public scooter{ 
     public :
-    void f(){
+    void f(); // ye dusra way h -> define member function without argument outside the class
+    //isme bas function define kr do class k andar
+
+
+   
+};
+// but function implement class ke bahar 
+//using scope resolution 
+ // NOTE -> class k name k pehle likha h data type( void )
+ void actva :: f(){
         cout << handle<< endl;
     }
-};
-
 
 
 int main()
